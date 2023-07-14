@@ -97,5 +97,8 @@
   },
   "resolutions": {
     "@sendbird/chat": "4.9.2"
+  },
+  "volta": {
+    "node": "16.20.1"
   }
 }
