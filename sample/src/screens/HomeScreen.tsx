@@ -26,6 +26,12 @@ const HomeItems = [
   },
   {
     image: undefined,
+    title: 'Stream',
+    desc: '',
+    route: Routes.Stream
+  },
+  {
+    image: undefined,
     title: 'Storybook',
     desc: '',
     route: Routes.Storybook,

@@ -15,6 +15,8 @@ export enum Routes {
   Palette = 'Palette',
   ThemeColors = 'ThemeColors',
 
+  Stream = 'Stream',
+
   OpenChannelTabs = 'OpenChannelTabs',
   OpenChannelListCommunity = 'OpenChannelListCommunity',
   OpenChannelListLiveStreams = 'OpenChannelListLiveStreams',
@@ -97,6 +99,10 @@ export type RouteParamsUnion =
   | {
       route: Routes.GroupChannelCreate;
       params: { channelType: GroupChannelType };
+    }
+  | {
+      route: Routes.Stream;
+      params: undefined;
     }
   | {
       route: Routes.GroupChannel;

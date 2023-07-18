@@ -54,6 +54,7 @@ import {
   ThemeColorsScreen,
 } from './screens';
 import FileViewerScreen from './screens/uikit/FileViewerScreen';
+import StreamScreen from './screens/jam/StreamScreen';
 
 const App = () => {
   const { scheme } = useAppearance();
@@ -195,6 +196,7 @@ const Navigations = () => {
             <RootStack.Group screenOptions={{ headerShown: true }}>
               <RootStack.Screen name={Routes.ThemeColors} component={ThemeColorsScreen} />
               <RootStack.Screen name={Routes.Palette} component={PaletteScreen} />
+              <RootStack.Screen name={Routes.Stream} component={StreamScreen} />
               <RootStack.Screen name={Routes.Storybook} component={StorybookScreen} />
             </RootStack.Group>
           </>
